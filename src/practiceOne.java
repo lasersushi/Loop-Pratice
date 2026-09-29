@@ -2,6 +2,7 @@ public class practiceOne {
     public static void main(String[] args) {
         System.out.println(sumDigits(4281));
     }
+
     public static int sumDigits(int n) {
         String intAsString = String.valueOf(n);
         int digits = intAsString.length();
@@ -9,7 +10,7 @@ public class practiceOne {
         int tempAns = 0;
         int finalAns = 0;
         for (int i = 0; i < digits; i++) {
-            result = intAsString.substring(i,i+1);
+            result = intAsString.substring(i, i + 1);
             tempAns = Integer.parseInt(result);
             finalAns = finalAns + tempAns;
         }

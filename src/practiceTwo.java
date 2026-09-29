@@ -1,7 +1,8 @@
 public class practiceTwo {
     public static void main(String[] args) {
-        countdown(20,6);
+        countdown(20, 6);
     }
+
     public static void countdown(int start, int step) {
         int ans = 0;
         if (start >= 0) {
